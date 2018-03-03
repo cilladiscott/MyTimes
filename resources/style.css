@@ -21,3 +21,15 @@ header {
  .mytimes {
    padding: 10px;
  }
+
+ .page-content {
+   display: flex;
+ }
+
+ div {
+   border: 2px solid black;
+ }
+
+ .column{
+   margin-right: 32px;
+ }
