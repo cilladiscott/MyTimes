@@ -1,0 +1,79 @@
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mytimes {
+  color: MediumAquamarine;
+  display: inline;
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.link {
+  margin-left: 20px;
+}
+
+.column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column.large {
+  width: 630px;
+  display: flex;
+  flex-direction: row;
+}
+
+.column.medium {
+  width: 300px;
+  display: flex;
+
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
+
+}
+ div {
+   border: 1px solid black;
+ }
+
+.story.main {
+  background-image: url("./images/img-story-main.png");
+  font-size: 40px;
+}
+
+.story.earth {
+  background-image: url("./images/img-story-2.png");
+}
+
+.story.camera {
+  background-image: url("./images/img-story-3.png");
+}
+
+.story.cat {
+  background-image: url("./images/img-story-1.png");
+}
+
+.story{
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
